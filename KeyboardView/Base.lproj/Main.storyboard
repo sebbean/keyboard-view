@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -53,11 +53,14 @@
                             <constraint firstItem="0ET-jL-SgU" firstAttribute="top" secondItem="ajZ-86-qPP" secondAttribute="bottom" id="xUN-zp-1BX"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bottomLayoutConstraint" destination="Ip0-ZW-ezK" id="kap-85-Cp6"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <customObject id="BHG-le-hUL" customClass="BottomLayoutKeyboardResponder" customModule="KeyboardView" customModuleProvider="target">
+                    <connections>
+                        <outlet property="bottomLayoutConstraint" destination="Ip0-ZW-ezK" id="S5e-gt-aWm"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="Jck-JU-qPB"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-30" y="399"/>
         </scene>

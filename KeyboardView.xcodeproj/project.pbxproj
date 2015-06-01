@@ -13,6 +13,7 @@
 		8383ED8819EE11890090183D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8383ED8719EE11890090183D /* Images.xcassets */; };
 		8383ED8B19EE11890090183D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8383ED8919EE11890090183D /* LaunchScreen.xib */; };
 		8383EDA319EE1F620090183D /* milky_way@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8383EDA219EE1F620090183D /* milky_way@3x.jpg */; };
+		9659293F1B1C620600C241C9 /* BottomLayoutKeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659293E1B1C620600C241C9 /* BottomLayoutKeyboardResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8383ED8719EE11890090183D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8383ED8A19EE11890090183D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8383EDA219EE1F620090183D /* milky_way@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "milky_way@3x.jpg"; sourceTree = "<group>"; };
+		9659293E1B1C620600C241C9 /* BottomLayoutKeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomLayoutKeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8383ED7D19EE11890090183D /* KeyboardView */ = {
 			isa = PBXGroup;
 			children = (
+				9659293E1B1C620600C241C9 /* BottomLayoutKeyboardResponder.swift */,
 				8383ED8019EE11890090183D /* AppDelegate.swift */,
 				8383ED8219EE11890090183D /* ViewController.swift */,
 				8383ED8419EE11890090183D /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8383ED8319EE11890090183D /* ViewController.swift in Sources */,
+				9659293F1B1C620600C241C9 /* BottomLayoutKeyboardResponder.swift in Sources */,
 				8383ED8119EE11890090183D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
